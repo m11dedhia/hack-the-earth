@@ -1,0 +1,34 @@
+{
+  "name": "mythbusters",
+  "version": "1.0.0",
+  "description": "Backend for MythBusters Platform",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/m11dedhia/mythbusters.git"
+  },
+  "author": "Megh Dedhia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m11dedhia/mythbusters/issues"
+  },
+  "homepage": "https://github.com/m11dedhia/mythbusters#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/register": "^7.13.16",
+    "nodemon": "^2.0.7"
+  }
+}
